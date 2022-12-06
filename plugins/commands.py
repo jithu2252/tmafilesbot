@@ -45,7 +45,7 @@ async def start(client, message):
             [
             InlineKeyboardButton('How To Use our Bot', url='https://telegram.me/how_to_use_tmafilesbot/2')
         ],[
-            InlineKeyboardButton('🤖 Channel', url='https://telegram.me/tmamovies'),
+            InlineKeyboardButton('🤖 Channel', url='https://telegram.me/tmaadda'),
             InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/tmadiscuss')
             ],[
                 InlineKeyboardButton('🔍 Search your movies here', switch_inline_query_current_chat='')

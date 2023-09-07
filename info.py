@@ -12,7 +12,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = 9301845 #int(environ['API_ID'],5540967)
 API_HASH = '563e9fd30b529442b705c7230f766b83'#(environ['API_HASH'],'eedf0196b0533f361b51b5b7082358e9')
-BOT_TOKEN = '5003449601:AAHwaHLEmugQ1v0gzeNtAQzG75wMimScnqo' #(environ['BOT_TOKEN'],'1877486792:AAGr4aoWtD_31Qh9GGnMnV2kUNYPqSxQSkY')
+BOT_TOKEN = '' #(environ['BOT_TOKEN'],'1877486792:AAGr4aoWtD_31Qh9GGnMnV2kUNYPqSxQSkY')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -30,7 +30,7 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(admin) for admin in environ.get("AUTH_GROUPS", "-1001601961451").split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://tmaadda:tmaadda@cluster0.8vqs89z.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Tmamoviesbottt")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001694472922'))
